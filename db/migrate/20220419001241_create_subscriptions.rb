@@ -5,7 +5,7 @@ class CreateSubscriptions < ActiveRecord::Migration[5.2]
       t.references :tea, foreign_key: true
       t.integer :status
       t.float :price
-      t.string :type
+      t.string :title
     end
   end
 end
