@@ -1,8 +1,9 @@
 FactoryBot.define do
-  factory :item do
-    merchant_id { nil }
-    name { Faker::Name.name }
+  factory :tea do
+    name { Faker::Tea.variety }
+    caffeinated { Faker::Boolean.boolean }
+    subscription_type { Faker::Subscription.plan }
     description { Faker::Quote.famous_last_words }
-    unit_price { Faker::Number.between(from: 100.15, to: 576.99) }
+    price { Faker::Number.between(from: 10.49, to: 30.99) }
   end
 end
