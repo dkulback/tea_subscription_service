@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2022_04_19_161939) do
     t.bigint "tea_id"
     t.integer "status"
     t.float "price"
-    t.string "type"
+    t.string "title"
     t.index ["customer_id"], name: "index_subscriptions_on_customer_id"
     t.index ["tea_id"], name: "index_subscriptions_on_tea_id"
   end
