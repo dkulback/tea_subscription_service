@@ -28,7 +28,7 @@ $ rails s -p 3000
 ``` 
 * Use below postman collection to get endpoints
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/b8ff93e51a5d15f17c03?action=collection%2Fimport)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/join-team?invite_code=9a222d71cd3760a6186e347d20b935c5&target_code=22ffa523b88e1adc714a60ea97b593e0)
 
 
 ## Running the tests
