@@ -27,8 +27,8 @@ TSS is a rails API designed for a frontend client to consume. This API allows th
 $ rails s -p 3000
 ``` 
 * Use below postman collection to get endpoints
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/163e0d581ec2c0996b89?action=collection%2Fimport)
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/join-team?invite_code=9a222d71cd3760a6186e347d20b935c5&target_code=22ffa523b88e1adc714a60ea97b593e0)
 
 
 ## Running the tests
