@@ -1,11 +1,5 @@
-# Sweater Weather
-Sweater Weather is part of an SOA web-application. Its purpose is for determining a forecast based on your location or where you plan on traveling next. This application exposes four integral endpoints for the front end to consume.
-1. Forecast for a location
-2. Background image at that location
-3. User creation
-4. Planning a road trip
-
-
+# Tea Subscription Service (TSS)
+TSS is a rails API designed for a frontend client to consume in order to subscribe customers to a subscription of various teas, update subscriptions and view all their subscriptions. 
 
 ## Technologies
 ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
