@@ -1,8 +1,8 @@
 # Tea Subscription Service (TSS)
-TSS is a rails API designed for a frontend client to consume. This API allows the front end client to hit 3 end points achieving the following goals; 
-1. Create a subscription for a customer and their tea of choice 
-2. Cancel a subscription 
-3. Retrieve a users subscriptions 
+TSS is a rails REST API designed for a frontend client to consume. This API allows the front end client to hit 3 end points achieving the following goals; 
+1. Create a subscription for a customer and their tea of choice **POST api/v1/subscriptions**
+2. Cancel a subscription **PATCH api/v1/subscriptions/:id**
+3. Retrieve a customers subscriptions **GET api/v1/subscriptions
 
 ## Technologies
 ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
