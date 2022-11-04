@@ -15,4 +15,24 @@ class SubscriptionSerializer
       }
     }
   end
+
+  def self.all_subscriptions(subs)
+    {
+      "data": subs.map do |sub|
+        {
+          "type": 'subscription',
+          "id": sub.id,
+          "attributes": {
+            "customer_id": sub.customer_id,
+            "tea_id": sub.tea_id,
+            "plan": sub.plan,
+            "status": sub.status,
+            "title": sub.title,
+            "price": sub.price
+          }
+        }
+      end
+
+    }
+  end
 end
