@@ -9,8 +9,9 @@ class SubscriptionSerializer
           "tea_id": subscription.tea_id,
           "plan": subscription.plan,
           "status": subscription.status,
-          "title": subscription.title,
-          "price": subscription.price
+          "title": "#{subscription.customer.name}:
+        #{subscription.tea.name}",
+          "price": subscription.tea.price.round(2)
         }
       }
     }
@@ -27,8 +28,9 @@ class SubscriptionSerializer
             "tea_id": sub.tea_id,
             "plan": sub.plan,
             "status": sub.status,
-            "title": sub.title,
-            "price": sub.price
+            "title": "#{sub.customer.name}:
+                      #{sub.tea.name}",
+            "price": sub.tea.price
           }
         }
       end

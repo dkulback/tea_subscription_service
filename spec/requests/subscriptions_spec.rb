@@ -55,8 +55,6 @@ RSpec.describe 'API Subscriptions' do
         subscription = Subscription.create(
           customer_id: customer.id,
           tea_id: tea.id,
-          title: "#{customer.name}: #{tea.name}",
-          price: tea.price,
           plan: 'Monthly'
         )
         patch api_v1_customer_subscription_path(customer, subscription),
@@ -95,8 +93,6 @@ RSpec.describe 'API Subscriptions' do
         teas.size.times do |i|
           Subscription.create!(customer_id: customer.id,
                                tea_id: teas[i].id,
-                               title: "#{customer.name}: #{teas[i].name}",
-                               price: teas[i].price,
                                plan: 'Monthly')
         end
 
